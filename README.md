@@ -9,7 +9,12 @@ Mobile game developement based on Unity3D.
 
  ### Environment:
    Unity3D
+   
  ### Programming Language:
    C#
+   
  ### Game Type
    Third Perspective Shooting(TPS)
+   
+ ### OS
+   ios & Android
