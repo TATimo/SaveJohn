@@ -17,4 +17,4 @@ Mobile game developement based on Unity3D.
    Third Perspective Shooting(TPS)
    
  ### OS
-   ios & Android
+   iOS & Android
