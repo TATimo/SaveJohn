@@ -30,8 +30,10 @@ public class EnemyHealth : MonoBehaviour
 
     void Update ()
     {
+//		Debug.Log (isSinking);
         if(isSinking)
         {
+			Debug.Log ("start");
             transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
         }
     }
@@ -48,9 +50,10 @@ public class EnemyHealth : MonoBehaviour
             
         hitParticles.transform.position = hitPoint;
         hitParticles.Play();
-
+//		Debug.Log(currentHealth);
         if(currentHealth <= 0)
         {
+//			Debug.Log("die");
             Death ();
         }
     }
